@@ -26,7 +26,7 @@ class Copl
 {
  public:
   typedef enum {
-    TYPE_OPL2, TYPE_OPL3, TYPE_DUAL_OPL2
+    TYPE_OPL2, TYPE_OPL3, TYPE_DUAL_OPL2, TYPE_DUAL_OPL3
   } ChipType;
 
   Copl()

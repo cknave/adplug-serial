@@ -57,6 +57,7 @@ src_libadplug_la_SOURCES = \
 	src/mtk.cpp \
 	src/mus.cpp \
 	src/nemuopl.cpp \
+	src/opl3duoserial.cpp \
 	src/player.cpp \
 	src/players.cpp \
 	src/protrack.cpp \
@@ -93,6 +94,7 @@ pkginclude_HEADERS = \
 	src/adplug.h \
 	src/emuopl.h \
 	src/fmopl.h \
+	src/opl3duoserial.h \
 	src/silentopl.h \
 	src/opl.h \
 	src/diskopl.h \

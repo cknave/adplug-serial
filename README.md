@@ -1,3 +1,16 @@
+# adplug-serial
+
+This fork of [adplug] includes a new "device," [opl3duoserial], that sends all
+register writes over a Linux serial port. This is intended to be used with an
+Arduino running [opl3serial] attached to an [OPL3 Duo!] board.
+
+[adplug]: https://github.com/adplug/adplug
+[opl3duoserial]: src/opl3duoserial.cpp
+[opl3serial]: https://github.com/cknave/opl3serial
+[OPL3 Duo!]: https://cheerful.nl/OPL3Duo/index.html
+
+---
+
 AdPlug - A free AdLib sound player library
 Copyright (C) 1999 - 2017 Simon Peter, et al.
 
@@ -16,13 +29,13 @@ Supported platforms:
 AdPlug currently is tested to compile and run well on the following
 platforms and compilers:
 
-Platform                Operating System        Compiler
---------                ----------------        --------
-IA32 - x86              Windows XP              MinGW 3.4
-                        MS-DOS 6.22             DJGPP 4.0
-                        Linux 2.6               GCC 4.1
-x86_64                  Linux                   GCC 6.3.1
-                        Linux                   GCC 8.2.1
+| Platform | Operating System | Compiler   |
+| -------- | ---------------- | ---------- |
+|IA32 - x86| Windows XP       |  MinGW 3.4 |
+|          | MS-DOS 6.22      |  DJGPP 4.0 |
+|          | Linux 2.6        |  GCC 4.1   |
+|x86_64    | Linux            |  GCC 6.3.1 |
+|          | Linux            |  GCC 8.2.1 |
 
 This list only incorporates platforms on which this release of AdPlug has
 been tested successfully. This and/or earlier versions of AdPlug may and did
@@ -36,9 +49,9 @@ Prerequisites:
 --------------
 AdPlug depends upon the following libraries:
 
-Library:	Version:
---------	--------
-libbinio	>= 1.4
+|Library:|Version:|
+|--------|--------|
+|libbinio|>= 1.4  |
 
 libbinio can be obtained from http://adplug.github.io/libbinio/.
 
